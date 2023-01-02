@@ -1,0 +1,38 @@
+.skills__container {
+  display: flex;
+  flex-direction: row;
+  border: 3px solid var(--fourth-color);
+  height: 25vh;
+  width: 25rem;
+  background-color: var(--main-color);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px var(--fifth-color);
+  padding: 1rem;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2rem;
+  
+}
+
+.skills__icon {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background-color: var(--fifth-color);
+  border: 2px solid var(--fourth-color);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-color);
+  height: 4rem;
+  width: 4rem;
+  box-shadow: 5px 5px 4px var(--fourth-color);
+  font-size: 12px;
+}

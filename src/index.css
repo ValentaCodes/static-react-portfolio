@@ -1,13 +1,48 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --main-color: #f2e9e4;
+  --secondary-color: #c9ada7;
+  --third-color: #9a8c98;
+  --fourth-color: #4a4e69;
+  --fifth-color: #22223b;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+html {
+  background-image: radial-gradient(var(--fourth-color) , var(--fifth-color) );
+  font-family: 'Lobster Two', cursive;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 800px) {
+  .wrapper {
+justify-content: center;
+flex-direction: column;
+gap: 20px;
+  }
+  .sidebar__controls {
+    margin-top: 0;
+    width: 20rem;
+    height: 10rem;
+  }
+  .sidebar__buttons {
+    flex-direction: row;
+    gap: .8rem;
+  }
+  .container {
+    /* margin-top: 4rem; */
+    margin-right: 0;
+  }
+  .about-me__photo {
+    left: 2.5rem;
+  }
 }
