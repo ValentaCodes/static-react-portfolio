@@ -55,13 +55,12 @@ I wanted to test my newly learned skills and understand the fundamentals of reac
 
 ## **Screenshots**
 
-  ![ALT TEXT]()
+  ![Portfolio Mobile](./src/assets/cd9cf7aecca605059bbc107089e2a57a.png)
+  ![Portfolio Web](./src/assets/d17c8220a0dc49a7e8397f1704cbe7ed.png)
 
 ## **Links**
-  
-  Add any relevant links for this project below:
 
-  [Your Website](URL)
+  [Github Repo](https://github.com/ValentaCodes/static-react-portfolio)
 
 ## License
 
