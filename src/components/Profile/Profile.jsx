@@ -8,7 +8,6 @@ export default function Profile() {
     <div className='container'>
       <div className='about-me'>
         <div>
-          {" "}
           Welcome! <br />
           My name is Cornelius, I am a Full-Stack Software Dev in Salt Lake
           City, Utah.

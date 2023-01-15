@@ -1,27 +1,20 @@
 import React from "react";
 import "./Sidebar.css";
-import { FaLinkedin, FaGithub, FaHome, FaFolderOpen } from "react-icons/fa";
+import { BsMedium, BsGithub, BsLinkedin } from "react-icons/bs";
 
 export default function Sidebar() {
   return (
     <div className='sidebar__controls'>
       <div className='sidebar__buttons'>
-        <button>
-          <FaHome className='icons' />
-          Home
-        </button>
-        <button>
-          <FaFolderOpen className='icons' />
-          Projects
-        </button>
-        <button>
-          <FaLinkedin className='icons' />
-          LinkedIn
-        </button>
-        <button>
-          <FaGithub className='icons' />
-          Github
-        </button>
+        <a href='https://medium.com/@valentacodes'>
+          <BsMedium className='icons' />
+        </a>
+        <a href='https://www.linkedin.com/in/cornelius-davis-701b00251/'>
+          <BsLinkedin className='icons' />
+        </a>
+        <a href='https://www.github.com/valentacodes'>
+          <BsGithub className='icons' />
+        </a>
       </div>
     </div>
   );
