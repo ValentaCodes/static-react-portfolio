@@ -11,31 +11,38 @@ import {
 export default function Skills() {
   return (
     <div>
-      <div Style={"font-size: 30px; color: var(--main-color); text-align: center;"}>
+      <h2 Style={"font-size: 30px; color: var(--main-color); text-align: center;"}>
         My Skills
-        </div>
+        </h2>
       <div className='skills__container'>
         <div className='skills'>
           <image>
             <IoLogoJavascript className='skills__icon' />
+            JavaScript
           </image>
           <image>
             <IoLogoCss3 className='skills__icon' />
+            CSS
           </image>
           <image>
             <IoLogoHtml5 className='skills__icon' />
+            HTML
           </image>
           <image>
             <IoLogoNodejs className="skills__icon" />
+            Node
           </image>
           <image>
             <SiMongodb className='skills__icon' />
+            MongoDB
           </image>
           <image>
             <SiReact className='skills__icon' />
+            React
           </image>
           <image>
             <SiNextdotjs className='skills__icon' />
+            Next
           </image>
           <image>
             <SiMysql className='skills__icon' />

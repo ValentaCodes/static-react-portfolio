@@ -2,8 +2,7 @@ import React from "react";
 import Photo from "../../assets/Photo.JPG";
 import "./Profile.css";
 
-// FIXME: Layout isnt fully responsive
-export default function Profile() {
+ export default function Profile() {
   return (
     <div className='container'>
       <div className='about-me'>

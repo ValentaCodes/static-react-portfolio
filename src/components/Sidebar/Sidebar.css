@@ -53,10 +53,33 @@ a:hover {
 .icons {
   height: 3rem;
   width: 2rem;
+  transition-duration: 2.2s;
 }
 
 .icons:hover {
   transform: rotate(360deg);
   transition: all 1.5s;
   color: var(--fifth-color);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: fit-content;
+  background-color: var(--fifth-color);
+  color: var(--main-color);
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 2.5rem;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
 }

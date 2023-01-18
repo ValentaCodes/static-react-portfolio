@@ -18,13 +18,12 @@
 
 html {
   background-image: radial-gradient(var(--fourth-color), var(--fifth-color));
-  font-family: "Lobster Two", cursive;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 950px) {
   .wrapper {
     justify-content: center;
     flex-direction: column;
@@ -45,5 +44,12 @@ html {
   }
   .about-me__photo {
     left: 2.5rem;
+  }
+  .tooltip .tooltip-text {
+    margin-left: 0;
+    top: -2.7rem;
+    left: -1.5rem;
+    font-size: 12px;
+    padding: 8px;
   }
 }
