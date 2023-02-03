@@ -29,12 +29,6 @@ export default function Sidebar() {
             <span className='tooltip-text'>Under Construction</span>
           </div>
         </a>
-        {/* <a href='none'>
-          <div className='tooltip'>
-        <BsFileArrowDown className='icons'/>
-        <span className='tooltip-text'>Download Resume</span>
-          </div>
-        </a> */}
       </div>
     </div>
   );
