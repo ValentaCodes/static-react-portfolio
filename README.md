@@ -60,7 +60,7 @@ I wanted to test my newly learned skills and understand the fundamentals of reac
 
 ## **Links**
 
-  [Github Repo](https://github.com/ValentaCodes/static-react-portfolio)
+  [Live Site](https://fabulous-croissant-57924f.netlify.app/)
 
 ## License
 
